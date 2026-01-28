@@ -1,0 +1,48 @@
+module.exports = {
+  BOOKING_STATUS: {
+    PENDING: "PENDING",
+    CONFIRMED: "CONFIRMED",
+    CANCELLED: "CANCELLED",
+    FAILED: "FAILED",
+    EXPIRED: "EXPIRED",
+  },
+
+  PAYMENT_STATUS: {
+    PENDING: "PENDING",
+    SUCCESS: "SUCCESS",
+    FAILED: "FAILED",
+    REFUNDED: "REFUNDED",
+  },
+
+  SEAT_STATUS: {
+    AVAILABLE: "AVAILABLE",
+    RESERVED: "RESERVED",
+    BOOKED: "BOOKED",
+    BLOCKED: "BLOCKED",
+  },
+
+  USER_ROLES: {
+    USER: "USER",
+    ADMIN: "ADMIN",
+    THEATER_OWNER: "THEATER_OWNER",
+  },
+
+  SEAT_LOCK_DURATION: 10 * 60 * 1000,
+  BOOKING_EXPIRY: 10 * 60 * 1000,
+  DEFAULT_EXPIRY: 3600,
+
+  MAX_SEATS_PER_BOOKING: 10,
+
+  MOVIE_STATUS: {
+    UPCOMING: "UPCOMING",
+    NOW_SHOWING: "NOW_SHOWING",
+    ENDED: "ENDED",
+  },
+
+  EmailTypes: {
+    BOOKING_CONFIRMATION: "Booking Confirmation",
+    BOOKING_CANCELLATION: "Booking Cancellation",
+    PAYMENT_RECEIVED: "Payment Received",
+    PAYMENT_FAILED: "Payment Failed",
+  },
+};
